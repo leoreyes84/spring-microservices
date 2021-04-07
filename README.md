@@ -3,3 +3,4 @@
 - Basic endpoints (get-post)
 - Return URI when create
 - Handle exceptions
+- Valiadtions
