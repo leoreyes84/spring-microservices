@@ -29,4 +29,6 @@ This is done by including links in a returned response and using only these link
 
 ## 02 - limits-service
 - Read properties from configuration (Config class and application.properties)
+
+## 03 - spring-cloud-config-server
  
