@@ -26,4 +26,7 @@ This is done by including links in a returned response and using only these link
 - H2 configuration
 - Creating repository to connect resource with H2 DB
 - Create User (one to many) post relation and resources
+
+## 02 - limits-service
+- Read properties from configuration (Config class and application.properties)
  
