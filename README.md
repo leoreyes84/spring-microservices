@@ -16,4 +16,5 @@ This is done by including links in a returned response and using only these link
 -> http://localhost:8080/actuator 
 -> http://localhost:8080/  (actuator UI)
 - Static filtering (@JsonIgnore and @JsonIgnoreProperties)
+- Dynamic filtering (@JsonFilte)
  
