@@ -24,4 +24,6 @@ This is done by including links in a returned response and using only these link
 - Basic authentication (default username = user and the password is generated and we can see it in the log when start). We can configure username and password in the application.properties
 - Spring security (Basic authentication)
 - H2 configuration
+- Creating repository to connect resource with H2 DB
+- Create User (one to many) post relation and resources
  
