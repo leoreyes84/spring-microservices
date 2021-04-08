@@ -21,4 +21,6 @@ This is done by including links in a returned response and using only these link
 - Versioning (through params)
 - Versioning (through headers)
 - Versioning (through producers)
+- Basic authentication (default username = user and the password is generated and we can see it in the log when start). We can configure username and password in the application.properties
+- Spring security (Basic authentication)
  
