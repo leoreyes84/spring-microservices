@@ -20,4 +20,5 @@ This is done by including links in a returned response and using only these link
 - Versioning (Basic approach)
 - Versioning (through params)
 - Versioning (through headers)
+- Versioning (through producers)
  
