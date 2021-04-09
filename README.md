@@ -45,3 +45,4 @@ This is done by including links in a returned response and using only these link
 - Consume other service (currency-exchange-service) with FEIGN framework
 
 ## 3.2 - naming-server (starts on port 8761) -> http://localhost:8761
+- Registre currency-exchange-service and currency-conversion-service in naming-service (eureka)
