@@ -37,4 +37,5 @@ This is done by including links in a returned response and using only these link
 - Add properties for profiles (dev limits-service-dev.properties - qa limits-service-qa.properties)
 
 ## 3.0 - currency-exchange-service (starts on port 8000, 8001, 8002)
+- Run with more instances (different ports) through -Dserver.port=<port> as VM arguments when run 
  
