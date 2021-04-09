@@ -29,6 +29,7 @@ This is done by including links in a returned response and using only these link
 
 ## 02 - limits-service (starts on 8080 port)
 - Read properties from configuration (Config class and application.properties)
+- Connect Limits Service to Spring Cloud Config Server
 
 ## 03 - spring-cloud-config-server (starts on 8888 port -> http://localhost:8888/limits-service/default)
 - Read properties from file -> git-localconfig-repo project outside of this git repo
