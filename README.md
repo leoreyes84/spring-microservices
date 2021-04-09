@@ -27,8 +27,9 @@ This is done by including links in a returned response and using only these link
 - Creating repository to connect resource with H2 DB
 - Create User (one to many) post relation and resources
 
-## 02 - limits-service
+## 02 - limits-service (starts on 8080 port)
 - Read properties from configuration (Config class and application.properties)
 
-## 03 - spring-cloud-config-server
+## 03 - spring-cloud-config-server (starts on 8888 port -> http://localhost:8888/limits-service/default)
+- Read properties from file -> git-localconfig-repo project outside of this git repo
  
