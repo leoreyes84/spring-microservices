@@ -49,3 +49,6 @@ This is done by including links in a returned response and using only these link
 - Update proxy to avoid url hardcode and get balancer with eureka
 
 ## 3.3 - api-gateway (starts on port 8765)
+- <host>//<name-on-eureka	>/<endpoint>
+- http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+- http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
