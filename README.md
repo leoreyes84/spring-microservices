@@ -39,4 +39,5 @@ This is done by including links in a returned response and using only these link
 ## 3.0 - currency-exchange-service (starts on port 8000, 8001, 8002)
 - Run with more instances (different ports) through -Dserver.port=<port> as VM arguments when run 
 - Add h2 and jpa dependencies. Use a repository
- 
+
+## 3.1 - currency-conversion-service (starts on port 8100, 8101, 8102)
