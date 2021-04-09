@@ -1,5 +1,5 @@
 # spring-microservices
-## 01 - restful-web-services
+## 1.0 - restful-web-services
 - Basic endpoints (get-post)
 - Return URI when create
 - Handle exceptions
@@ -27,12 +27,14 @@ This is done by including links in a returned response and using only these link
 - Creating repository to connect resource with H2 DB
 - Create User (one to many) post relation and resources
 
-## 02 - limits-service (starts on 8080 port)
+## 2.0 - limits-service (starts on 8080 port)
 - Read properties from configuration (Config class and application.properties)
 - Connect Limits Service to Spring Cloud Config Server
 - Configure profiles to read properties according to the profile
 
-## 03 - spring-cloud-config-server (starts on 8888 port -> http://localhost:8888/limits-service/default)
+## 2.1 - spring-cloud-config-server (starts on 8888 port -> http://localhost:8888/limits-service/default)
 - Read properties from file -> git-localconfig-repo project outside of this git repo
 - Add properties for profiles (dev limits-service-dev.properties - qa limits-service-qa.properties)
+
+## 3.0 - currency-exchange-service (starts on port 8000, 8001, 8002)
  
