@@ -47,3 +47,5 @@ This is done by including links in a returned response and using only these link
 ## 3.2 - naming-server (starts on port 8761) -> http://localhost:8761
 - Registre currency-exchange-service and currency-conversion-service in naming-service (eureka)
 - Update proxy to avoid url hardcode and get balancer with eureka
+
+## 3.3 - api-gateway (starts on port 8765)
