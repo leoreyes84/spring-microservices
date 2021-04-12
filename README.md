@@ -53,3 +53,4 @@ This is done by including links in a returned response and using only these link
 - http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
 - http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
 - Custom routes (remove<name-on-eureka>) -> http://localhost:8765/currency-exchange/from/USD/to/INR
+- Filter to log request
