@@ -60,3 +60,8 @@ This is done by including links in a returned response and using only these link
 - http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
 - Custom routes (remove<name-on-eureka>) -> http://localhost:8765/currency-exchange/from/USD/to/INR
 - Filter to log request
+
+## Notes:
+- In the course we can see also how to deploy services with docker
+- Use Zipkin Distributed Tracing Server (docker run -p 9411:9411 openzipkin/zipkin:2.23) http://localhost:9411
+- Log all chain (rest call other rest) of request with zipkin
