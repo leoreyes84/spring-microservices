@@ -43,6 +43,7 @@ This is done by including links in a returned response and using only these link
 - Configure circuit breaker (number of times to retry)
 - Fallback method for circuit breaker
 - See also @CircuitBreaker to compare which one is better
+- @RateLimiter to allow number of calls in a period of time
 
 ## 3.1 - currency-conversion-service (starts on port 8100, 8101, 8102)
 - Consume other service (currency-exchange-service) with RestTemplate
