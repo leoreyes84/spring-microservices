@@ -42,6 +42,7 @@ This is done by including links in a returned response and using only these link
 - Default circuit breaker (resilience4j -> it tries call 3 times)
 - Configure circuit breaker (number of times to retry)
 - Fallback method for circuit breaker
+- See also @CircuitBreaker to compare which one is better
 
 ## 3.1 - currency-conversion-service (starts on port 8100, 8101, 8102)
 - Consume other service (currency-exchange-service) with RestTemplate
