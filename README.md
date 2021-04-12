@@ -40,6 +40,7 @@ This is done by including links in a returned response and using only these link
 - Run with more instances (different ports) through -Dserver.port=<port> as VM arguments when run 
 - Add h2 and jpa dependencies. Use a repository
 - Default circuit breaker (resilience4j -> it tries call 3 times)
+- Configure circuit breaker (number of times to retry)
 
 ## 3.1 - currency-conversion-service (starts on port 8100, 8101, 8102)
 - Consume other service (currency-exchange-service) with RestTemplate
